@@ -20,6 +20,10 @@ int main(int argc, const char * argv[]) {
         cout << i << endl;
     }
     
+    for (long long i = 0; i < 10000000; ++i) {
+        cout << array[i] << endl;
+    }
+    
     
     
     
