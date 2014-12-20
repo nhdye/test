@@ -15,9 +15,19 @@ int main(int argc, const char * argv[]) {
     
     long long *array = new long long[100000000];
     
-    for (long long i = 0; i < 100000000; ++i) {
+    for (long long i = 0; i < 10000000; ++i) {
+        array[i] = i;
         cout << i << endl;
     }
+    
+    for (long long i = 0; i < 10000000; ++i) {
+        cout << array[i] << endl;
+    }
+    
+    
+    
+    
+    
     
     
     return 0;
